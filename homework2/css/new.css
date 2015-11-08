@@ -43,6 +43,7 @@ p {
 	}
 .cen{
 	text-align: center;
+	font-style: italic;
 	}
 img {
 	margin: 0% 7pt 0% 0%;
@@ -71,9 +72,6 @@ img:hover {
 	text-align: center;
 	margin: 1% 0% 2% 0%;
 	}
-/*.im2{
-	margin: 0% 0% 0% 0%;*/
-	}
 .textbi{
 	font-style: italic;
 	font-weight: 700;
@@ -99,4 +97,7 @@ li{
 .rtl{
 	text-align: right;
 	font-style: italic;
+}
+.bold_text{
+	font-weight: 700;
 }
