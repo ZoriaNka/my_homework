@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>form and tables</title>
+      <link rel="stylesheet" type="text/css" href="css/reset.css">
+      <link rel="stylesheet" type="text/css" href="css/style_1.css"> 
+  </head>
+  <body> 
+    <h1>Урок "Форми": теги та їх атрибути</h1>
+    <h2>Розкажіть дещо про себе...</h2>
+    <p class="about">Спробуйте створити аналогічну форму. Для цілей демонстрації цілком підійдуть і видумані</p>
+<form action="#" method="post">
+  <fieldset>
+    <legend> Коротко про себе </legend>
+    <ul>
+      <li>
+        <label>Ім'я: <input type="text" name="name" size="20"></label>
+      </li>
+      <li>
+        <label>Прізвище: <input type="text" name="surname" size="20"></label>
+      </li>
+      <li>
+        Стать: 
+        <label><input type="radio" name="question-sex" checked>чоловіча</label>
+        <label><input type="radio" name="question-sex">жіноча</label>
+      </li>
+      <li>
+        <label>Вік: <input type="text" name="age" size="20"> років</label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Детальніше про себе</legend>
+    <ul>
+      <li>
+        <label><input type="radio" name="question-sex1" checked>Молодий чоловік</label>
+      </li>
+      <li>
+        <label><input type="radio" name="question-sex1">Дівчина</label>
+      </li>
+      <li>
+        <label><input type="text" name="date_birsday" size="20"> Дата народження</label>
+      </li>
+      <li>
+        <label><input type="text" name="family" size="20"> Сімейний стан</label>
+      </li>
+      <li>
+        <label><input type="text" name="social" size="20"> Соціальний статус</label>
+      </li>
+      <li>
+        <label><input type="text" name="addres" size="20"> Місце проживання</label>
+      </li>
+        <li>
+          <ul>
+          <li class="view">Як проходять ваші вихідні:</li>
+          <li>
+        <label><input type="checkbox" name="hobby[]">Сплю</label>
+      </li>
+      <li>
+        <label><input type="checkbox" name="hobby[]">Розважаюсь з друзями</label>
+      </li>
+      <li>
+        <label><input type="checkbox" name="hobby[]">Ходжу на рибалку</label>
+      </li>
+      <li>
+        <label><input type="checkbox" name="hobby[]">Граю в ігри</label>
+      </li>
+    </ul>
+    </li>
+    <li> 
+    <ul>     
+    <li class="view">Розповісти про форми з книги, яка присвячена HTML</li>
+        <li>
+        <select name="example">
+          <option>Site frequency</option>
+          <option>Else</option> 
+          <option>More</option> 
+        </select>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+    <li class="view">Скiльки книжок Ви прочитали за своє життя</li>
+        <li>
+        <label><input type="radio" name="number">0-10</label>
+      </li>
+      <li>
+        <label><input type="radio" name="number">11-20</label>
+      </li>
+      <li>
+        <label><input type="radio" name="number">21-50</label>
+      </li>
+      <li>
+        <label><input type="radio" name="number">50+</label>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+    <li class="view">Ваші коментарі:</li>
+       <li>
+          <label><textarea name="comments" rows=10 cols=50></textarea></label>
+      </li>
+      <li></li>
+      <li>
+        <select name="example" multiple size=3>
+          <option>перша позиція</option>
+          <option selected>друга позиція</option>
+          <option>третя позиція</option> 
+        </select>
+      </li>
+    </ul>
+  </li>
+</ul>
+  </fieldset>
+  <fieldset>
+    <legend>I на завершення</legend>
+    <ul>
+      <li>
+        <label><input type="text" name="fileded" size="30" value="Це поле вже було заповнене до нас" readonly="readonly"></label>
+      </li>
+      <li>
+           <label> Email: <input type="text" name="fild_empty" size="30"></label>
+      </li>
+          <li>
+            <ul>
+          <li class="view">Чи бажаєте підписатися на чудову розсилку спаму?</li>
+          <li>
+        Виберіть категорії
+      </li>
+      <li>
+        <label><input type="checkbox" name="var[]">Обладнання</label>
+      </li>
+      <li>
+        <label><input type="checkbox" name="var[]">Як приготувати обід</label>
+      </li>
+      <li>
+        <label><input type="checkbox" name="var[]">Зароби мільйон за два дні!</label>
+      </li>
+    </ul>
+  </li>
+  <li>
+     <ul>
+          <li class="view">Наскільки складне завдання</li>
+        <li>
+        <label><input type="radio" name="var" checked>Зовсім ні</label>
+      </li>
+      <li>
+        <label><input type="radio" name="var">Так собі</label>
+      </li>
+      <li>
+        <label><input type="radio" name="var">Ледве зробили</label>
+      </li>
+    </ul> 
+    </li> 
+  </ul>
+  </fieldset>
+  <ul>
+    <li>
+      <input type="submit" value="Надіслати">
+         </li>
+      </ul>
+    </form>
+  </body>
+</html>
