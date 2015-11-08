@@ -7,7 +7,6 @@ body {
 h1 {
     font-family: Helvetica, sans-serif;
     font-size: 45px;
-    width: 100%;
     color: #4876FF;
     text-shadow: black 3pt 2pt 4px;
     text-align: center;
@@ -21,8 +20,9 @@ table {
     border-spacing: 6px;
     margin-bottom: 10px;
     text-align: center;
-    margin: 5pt 15pt 20pt 100pt;
+    margin: 5pt 15pt 20pt 170pt;
     padding: 15pt;
+    width: 600pt;
 }
 
 table.some{
@@ -34,11 +34,16 @@ td {
     padding: 5px;
     padding-right: 30px;
     border: 2px solid #00B2EE;
+    vertical-align: middle;
 }
 
 th {
     padding: 10px;
     border: 2px solid #00B2EE;
+}
+tbody tr:hover {
+    background: white;
+    color: green; 
 }
 thead{
     color: red;
@@ -49,6 +54,5 @@ thead{
     font-weight: 700; 
 }
 .second{
-   text-align: center; 
-   width: 1000pt;
-}
+   text-align: center;
+  }
