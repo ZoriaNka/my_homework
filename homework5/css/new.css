@@ -1,0 +1,261 @@
+.wrapper{
+	background-color: #F4F4F4;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.main{
+	margin: 24pt 0 0 0;
+}
+.header{
+	margin: 20pt 0 1pt 20pt;
+	font-size: 18pt;
+	font-family: arial;
+	font-weight: 900pt;
+}
+
+
+/*-----------------------------------------------sidebar_left---------------------------------------------*/
+.sidebar_left{
+	float: left;
+	text-align: left;
+	margin: 0 0 0 20pt;
+	width: 120pt;
+}
+.lsidebar_foto{
+	width: 120pt;
+	height: 63pt;
+	margin: 12pt 0 28pt 0;
+}
+.high_text{
+	font-family: tahoma;
+	font-size: 11pt;
+	width: 120pt;
+	/*height: 43pt;*/
+	line-height: 16pt;
+	
+}
+.sidebar_left_title {
+	font-family: tahoma;
+	text-align: left;
+	font-size: 11pt;
+	margin: 0 0% 1% 0;
+	color: #191919;
+	font-weight: 700;
+	margin: 0 0 6pt 0;
+}
+.left_nav{
+	font-family: tahoma;
+	font-size: 11pt;
+	padding: 6pt 0 6pt 5pt;
+}
+.left_nav li{
+	padding: 5pt;
+	margin: 5pt 0;
+	background: #e8e8e8;}
+
+.left_nav li:hover{
+	background: gray;
+}
+.left_nav li a{
+	text-decoration: none;
+	color: #191919;
+}
+.right{
+	float: right;
+	color: #888888;
+	font-size: 11pt;
+}
+.right:hover{
+	background: gray;
+}
+
+/*-----------------------------------------------content-------------------------------------*/
+.content{
+	float: left;
+	margin: 0 20pt 0 20pt;
+	width: 500pt;
+	height: 1000pt;
+	overflow: hidden;
+	}
+.main_foto{
+	width: 100%;
+	height: 250pt;
+	padding: 14pt 0 0 0;
+	}
+ h1 {
+	font-family: arial;
+	font-size: 24pt;
+	text-align: left;
+	padding: 0pt;
+	margin: 8pt 0 0 0;
+	}
+.heading{
+	font-family: tahoma;
+	font-size: 11pt;
+	color: #191919;
+}
+.text_ande_foto{
+	font-size: 11pt;
+	font-family: tahoma;
+	color: #555555;
+	width: 438pt;
+	text-align: left;
+	margin: 31pt 0 0 0;
+}
+.second_title{
+	font-family: arial;
+	font-size: 18pt;
+	color: #555555;
+	padding: 7pt 0 13pt 0;
+}
+.post_img_1{
+	width: 240pt;
+	height: 122pt;
+	float: right;
+	padding: 0pt 0 0 0;
+}
+.post_img_2{
+	width: 240pt;
+	height: 122pt;
+	float: right;
+}
+.blok_post_1{
+	overflow: hidden;
+	width: 240pt;
+}
+.blok_post_2{
+	overflow: hidden;
+	width: 240pt;
+}
+.text_post{
+	font-family: tahoma;
+	font-size: 11pt;
+	font-weight: 500pt;
+	color: #555555;
+	padding: 0 0 23pt 0;
+	line-height: 16pt;
+}
+.pagination ul li{
+	display: inline;
+	background: #ffffff;
+	padding: 5pt;
+}
+.pagination ul li a:hover{
+	background: #555555;
+	padding: 5pt;
+}
+.pagination li a{
+text-decoration: none;
+	color: #191919;
+}
+.name_page{
+	background-color: #f4f4f4;
+}
+.name_page:hover{
+	background: #f4f4f4;
+}
+.highlighted_item{
+	background: #555555;
+	padding: 5pt;
+}
+.date_1{
+	padding: 25pt 0 58pt 0;
+	font-family: tahoma;
+	font-size: 11pt;
+	line-height: 16pt;
+}
+.date{
+	border-top: 2px solid #555555;
+	font-size: 11pt;
+	font-family: tahoma;
+	padding: 5pt 0 58pt 0;
+}
+.other_color{
+	color: #888888;
+}
+
+/*-----------------------------------------------sidebar_right-------------------------------------------*/
+.sidebar_right{
+	text-align: left;
+}
+.sidebar_160{
+	text-align: left;
+	width: 160pt;
+	float: left;
+	margin-right: 23pt;
+	color: #000000;
+	line-height: 16pt;
+}
+.sidebar_120{
+	text-align: left;
+	width: 120pt;
+	overflow: hidden;
+	color: #555555;
+	line-height: 16pt;
+	}	
+.two_sidebar{
+	font-family: tahoma;
+	font-size: 11pt;
+	font-weight: 500pt;
+	}
+h4 {
+	font-family: tahoma;
+	text-align: left;
+	font-size: 11pt;
+	color: #191919;
+	font-weight: 900;
+	margin: 0 0 7pt 0;
+	}
+.rsidebar_img{
+	float: left;
+	width: 300pt;
+	height: 250pt;
+	margin: 23pt 15pt 38pt 0;
+}
+.logo_t_1 {
+	float: left;
+	margin: 0 6pt 0 0;
+}
+.logo_t_2{
+	float: left;
+	margin: 0 6pt 0 25pt
+}
+.name_logo_tw{
+	color: #000000;
+	width: 70pt;
+	font-weight: 700pt;
+	font-family: tahoma;
+	float: left;
+	font-size: 11pt;
+}
+.name_logo_rss{
+	color: #000000;
+	width: 40pt;
+	font-weight: 700pt;
+	font-family: tahoma;
+	float: left;
+	font-size: 11pt;
+	margin: 0 50pt 0 0;
+}
+.number_logo_1{
+	color: #888888;
+	float: left;
+	font-size: 11pt;
+	font-family: tahoma;
+}
+.number_logo_2{
+	color: #888888;
+	float: left;
+	font-size: 11pt;
+	font-family: tahoma;
+}
+
+/*-----------------------------------------------footer---------------------------------------------*/
+.footer{
+	overflow: hidden;
+	font-family: tahoma;
+	font-size: 11px;
+	font-color: #555555;
+	margin: 20pt 0 50pt 20pt;
+	width: 120pt;
+}
