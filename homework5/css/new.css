@@ -1,10 +1,15 @@
 .wrapper{
-	background-color: #F4F4F4;
-	overflow: hidden;
+	background-color: #ffffff;
 	margin: 0 auto;
+	width: 1037px;
+	height: 1200px;
 }
 .main{
-	margin: 24px 0 0 0;
+	margin: 23px 0 0 0;
+	background-color: #F4F4F4;
+	overflow: hidden;
+	width: 1037px;
+	height: 1015px;
 }
 .header{
 	margin: 20px 0 1px 20px;
@@ -18,13 +23,13 @@
 .sidebar_left{
 	float: left;
 	text-align: left;
-	margin: 0 0 0 20px;
+	margin: 23px 23px 0 20px;
 	width: 120px;
 }
 .lsidebar_foto{
 	width: 140px;
 	height: 63px;
-	margin: 12px 0 28px 0;
+	padding: 12px 0 28px 0;
 }
 .high_text{
 	font-family: tahoma;
@@ -36,10 +41,10 @@
 .sidebar_left_title {
 	font-family: tahoma;
 	text-align: left;
-	font-size: 11px;
+	font-size: 13px;
 	margin: 0 0% 1% 0;
 	color: #191919;
-	font-weight: 700px;
+	font-weight: 900px;
 	margin: 0 0 6px 0;
 }
 .left_nav{
@@ -71,15 +76,13 @@
 /*-----------------------------------------------content-------------------------------------*/
 .content{
 	float: left;
-	margin: 0 20px 0 20px;
-	/*width: 500px;
-	height: 1000px;*/
+	margin: 23px 23px 0 23px;
 	overflow: hidden;
 	}
 .main_foto{
 	width: 500px;
 	height: 250px;
-	padding: 14px 0 0 0;
+	padding: 15px 0 0 0;
 	}
  h1 {
 	font-family: arial;
@@ -138,6 +141,8 @@
 	display: inline;
 	background: #ffffff;
 	padding: 5px;
+	font-family: tahoma;
+	font-size: 11px;
 }
 .pagination ul li a:hover{
 	background: #555555;
@@ -149,6 +154,7 @@
 }
 .name_page{
 	background-color: #f4f4f4;
+	color: #555555;
 }
 .name_page:hover{
 	background: #f4f4f4;
@@ -176,11 +182,13 @@
 /*-----------------------------------------------sidebar_right-------------------------------------------*/
 .sidebar_right{
 	text-align: left;
+	float: left;
+	margin: 23px 0 0 0;
 }
 .sidebar_160{
 	text-align: left;
 	width: 160px;
-	float: left;
+	float: right;
 	margin-right: 23px;
 	color: #000000;
 	line-height: 16px;
@@ -191,6 +199,8 @@
 	overflow: hidden;
 	color: #555555;
 	line-height: 16px;
+	float: right;
+	padding: 0 24px 0 0;
 	}	
 .two_sidebar{
 	font-family: tahoma;
@@ -208,8 +218,8 @@ h4 {
 .rsidebar_img{
 	float: left;
 	width: 300px;
-	/*height: 250px;*/
-	margin: 23px 15px 38px 0;
+	height: 250px;
+	margin: 22px 0 38px 0;
 }
 .logo_t_1 {
 	float: left;
