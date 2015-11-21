@@ -17,7 +17,10 @@
 	font-family: arial;
 	font-weight: 900px;
 }
-
+.header a{
+	text-decoration: none;
+	color: #191919;
+}
 
 /*-----------------------------------------------sidebar_left---------------------------------------------*/
 .sidebar_left{
@@ -45,6 +48,14 @@
 	margin: 0 0% 1% 0;
 	color: #191919;
 	font-weight: 900px;
+	margin: 0 0 6px 0;
+}
+h3{
+	font-family: tahoma;
+	text-align: left;
+	font-size: 13px;
+	color: #191919;
+	font-weight: 700px;
 	margin: 0 0 6px 0;
 }
 .left_nav{
@@ -267,4 +278,8 @@ h4 {
 	font-color: #555555;
 	margin: 20px 0 50px 20px;
 	width: 120px;
+}
+.footer p a{
+	text-decoration: none;
+	color: #191919;
 }

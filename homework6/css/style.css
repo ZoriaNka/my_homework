@@ -1,0 +1,352 @@
+body {
+   background: -webkit-linear-gradient(top, #cfd8da 3%,#eff2f3 12%,#f0f3f3 14%,#fefefe 44%);
+}
+/*--------------------- header area --------------------*/
+.wrapper {
+  width: 796px;
+  margin: 0 auto;
+}
+.header {
+  overflow: hidden;
+  padding: 0;
+  border-bottom: 1px solid gray;
+}
+.login{
+  width: 158px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 11px;
+  color: #505050;
+  text-align: center;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  border-radius: 15px;
+  margin: -7px 0 20px 628px;
+  overflow: hidden;
+}
+.login a{
+  text-decoration: none;
+  color: #02a4fa; 
+}
+.login a:hover{
+  color: #505050
+}
+.color-blue{
+  color: #02a4fa;
+  border-left: 1px solid gray;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+.logo-main {
+  overflow: hidden;
+  float: left;
+  width: 174px;
+}
+.name-company{
+  float: left;
+  width: 130px;
+  font-family: AFKlampenborg;
+  font-size: 22px;
+  font-weight: bold;
+  color: #989b9d;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.name-company a{
+  text-decoration: none;
+  color: #989b9d;
+}
+.slogan{
+  font-family: arial;
+  font-size: 15px;
+  color: #505050;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 42px;
+}
+.main-nav{
+  width: 398px;
+  height: 35px;
+  float: right;
+  border: 1px solid gray;
+  border-radius: 25px 25px 0 0;
+  text-align: center;
+  border-bottom: none;
+  margin-right: 15px;
+  background: #dee0df;
+  color: #939598;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 16px;
+  padding-top: 15px; 
+}
+ul.nav {
+  overflow: hidden;
+  list-style: none;
+}
+ul.nav li {
+  display: inline;
+}
+.nav-a{
+  display: block;
+  border-right: 1px solid gray;
+  width: 130px;
+  float: left;
+}
+.nav-b{
+  display: block;
+  border-right: 1px solid gray;
+  width: 130px;
+  float: left;
+}
+.nav-c{
+  float: left;
+  padding-left: 15px;
+}
+ul.nav li a {
+  text-decoration: none;
+  color: #939598;
+}
+ul.nav li a:hover {
+  color: #45b8fb;
+}
+.info-about-company{
+  width: 394px;
+  margin: 0 0 0 134px;
+}
+/*--------------------- main area --------------------*/
+.main {
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.sidebar {
+  float: left;
+  width: 230px;
+  margin-right: 20px;
+}
+.content {
+  float: right;
+  overflow: hidden;
+  width: 528px;
+  margin-bottom: 200px;
+}
+.fa{
+color: #00a5ff;
+font-weight: normal;
+padding: 0 7px 0 0;
+}
+.caret-down{
+  color: #00a5ff;
+  padding: 0 0 0 7px;
+}
+.category-list{
+  font-family: arial;
+  font-size: 14px;
+}
+.category-list li{
+  padding: 9px 0 12px 0;
+  border-bottom: 1px solid #c4c4c3;
+}
+.category-list li a{
+  text-decoration: none;
+  color: #696a6a;
+}
+.sidebar-title{
+  padding: 25px 0 24px 0;
+  font-family: arial;
+  font-size: 20px;
+  color: #03a7fe;
+}
+.rss-logo{
+  display: block;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 16px 53px 16px 53px;
+  margin: 0 0 28px 0;
+}
+.logo_1{
+  border: 3px solid #ff9600;
+  border-radius: 10px;
+  padding: 5px 22px 5px 22px;
+  margin: 0 auto;
+}
+.category-list li:last-child {
+  border-bottom: none;
+  padding: 9px 0 49px 0;
+}
+.logo-companys li{
+  padding: 0 0 40px 0;
+  margin: 0 0 0 40px;
+}
+a.sprite{
+  display: block;
+  width: 114px;
+  height: 64px;
+  background: url("../image/sprites.png");
+  text-decoration: none;
+  margin-bottom: -20px;
+  margin-top: -10px; 
+}
+a.sprite:hover{
+  background-position: 0 -79px;
+}
+a.sprite-1{
+  display: block;
+  width: 114px;
+  height: 70px;
+  background: url("../image/sprites.png");
+  background-position: -265px -72px;
+  text-decoration: none;
+  margin-top: -10px;
+  margin-bottom: -40px;
+}
+a.sprite-1:hover{
+  background-position: -265px 5px;
+}
+a.sprite-2{
+  display: block;
+  width: 114px;
+  height: 64px;
+  background: url("../image/sprites.png");
+  background-position: -380px -60px;
+  text-decoration: none;
+  margin-bottom: -30px;
+}
+a.sprite-2:hover{
+  background-position: -380px 7px;
+}
+a.sprite-3{
+  display: block;
+  width: 114px;
+  height: 100px;
+  background: url("../image/sprites.png");
+  background-position: -134px -170px;
+  text-decoration: none;
+  margin-bottom: -30px;
+}
+a.sprite-3:hover{
+  background-position: -9px -170px;
+}
+a.sprite-4{
+  display: block;
+  width: 110px;
+  height: 45px;
+  background: url("../image/sprites.png");
+  background-position: -131px -72px;
+  text-decoration: none;
+}
+a.sprite-4:hover{
+  background-position: -131px -5px;
+}
+h1{
+  font-family: arial;
+  font-size: 26px;
+  color: #010101;
+  font-weight: normal;
+  margin: 64px 0 16px 0;
+}
+.info-company{
+  width: 100%;
+  border-top: 1px solid #4cbcf6; 
+  margin-bottom:15px;
+  margin-top: 15px;
+}
+.info-about-company{
+  margin-top: 15px;
+}
+.img-company{
+  width: 99px;
+  float: left;
+  margin: 15px 22px 0 0;
+}
+h2{
+  font-family: arial;
+  font-size: 22px;
+  color: #03a7fe;
+}
+.site {
+  color: #4cbcf6;
+  font-weight: bold;
+}
+.list-about{
+  width: 394px;
+  font-family: arial;
+  font-size: 12px;
+  color: #000000;
+  text-align: left;
+}
+ .list-about a{
+  text-decoration: none;
+}
+.list_info{
+  text-align: left;
+  padding-left: 11px;
+  padding-right: 20px;
+  width: 162px;
+  color: #505050;
+  display: inline-table;
+}
+.list-about li:last-child{
+  padding: 0;
+  margin: 0;
+  padding-left: 5px;
+  width: 394px;
+  line-height: 23px
+}
+.contacts{
+  width: 394px;
+  line-height: 23px;
+  font-family: arial;
+  font-size: 12px;
+  color: #000000;
+}
+.contacts a{
+  color: #000000;
+  text-decoration: none;
+}
+.list-about li{
+  padding: 5px;
+  margin: 5px 0;
+  background: #dfe5e6;
+}
+.contacts li:nth-child(odd){
+  background: #edf0f1;
+  padding-left: 200px;
+}
+.contacts li:nth-child(even){
+  background: #dfe5e6;
+  padding-left: 200px;
+}
+/*--------------------- footer area --------------------*/
+.footer {
+  margin: 0 auto;
+  width: 100%;
+  border-top: 1px solid gray;
+  overflow: hidden;
+  float: left;
+  clear: both;
+}
+.copyright{
+  width: 504px;
+  font-family: arial;
+  font-size: 10px;
+  color: #78797b;
+  text-align: left;
+  margin: 0 0 10px 250px;
+  border: 2px solid #d9dada;
+  background: #d9dada;
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+}
+.link a{
+  color: #505050;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-img{
+  float: right;
+}
