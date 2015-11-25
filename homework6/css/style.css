@@ -88,7 +88,8 @@ ul.nav li {
  ul.nav li:hover {
   background-image: url(../image/active.png);
   background-repeat: repeat-x;
-  border-bottom-color: #eff2f3; 
+  border-bottom-color: #eff2f3;
+  font-color: #010101; 
 }
 ul.nav li:last-child {
   border-right: none;
