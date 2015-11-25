@@ -1,5 +1,6 @@
 body {
    background: -webkit-linear-gradient(top, #cfd8da 3%,#eff2f3 12%,#f0f3f3 14%,#fefefe 44%);
+   background: -moz-linear-gradient(top, #cfd8da 3%,#eff2f3 12%,#f0f3f3 14%,#fefefe 44%);
 }
 /*--------------------- header area --------------------*/
 .wrapper {
@@ -54,43 +55,40 @@ body {
   margin-top: 25px;
   margin-bottom: 42px;
 }
-ul.nav {
+.nav {
   overflow: hidden;
   list-style: none;
   position: absolute;
   float: right;
   border: 1px solid gray;
-  border-radius: 25px 25px 0 0;
   border-bottom: none;
+  border-radius: 25px 25px 0 0;
   margin-right: 15px;
-  background: #dee0df;
   color: #939598;
   font-weight: bold;
   font-family: arial;
   font-size: 16px;
   bottom: -1px;
   right: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
   text-align: center;
-  z-index: 0;
-  border-bottom: 1px solid gray;
+  z-index: 2;
+  margin-right: 10;
+  padding: 0;
 }
 ul.nav li {
   display: block;
-  display: inline;
   border-bottom: 1px solid gray;
   border-right: 1px solid gray;
-  padding: 15px 10px 15px 10px;
-  margin-left: -4px;
   background-image: url(../image/img-passive.png);
   background-repeat: repeat-x;
+  float: left;
+  padding: 15px 10px;
 }
- ul.nav li:first-child {
+ ul.nav li.active,
+ ul.nav li:hover {
   background-image: url(../image/active.png);
   background-repeat: repeat-x;
-  border-bottom-color: transparent; 
-  padding-right: 10px;
+  border-bottom-color: #eff2f3; 
 }
 ul.nav li:last-child {
   border-right: none;
@@ -99,9 +97,9 @@ ul.nav li a {
   text-decoration: none;
   color: #939598;
 }
-ul.nav li a:hover {
+/*ul.nav li:hover {
   color: #45b8fb;
-}
+}*/
 .info-about-company{
   width: 394px;
   margin: 0 0 0 134px;
