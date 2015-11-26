@@ -1,5 +1,6 @@
 body {
    background: -webkit-linear-gradient(top, #cfd8da 3%,#eff2f3 12%,#f0f3f3 14%,#fefefe 44%);
+   background: -moz-linear-gradient(top, #cfd8da 3%,#eff2f3 12%,#f0f3f3 14%,#fefefe 44%);
 }
 /*--------------------- header area --------------------*/
 .wrapper {
@@ -7,9 +8,10 @@ body {
   margin: 0 auto;
 }
 .header {
-  overflow: hidden;
-  padding: 0;
+  padding-bottom: 60px;
   border-bottom: 1px solid gray;
+  position: relative;
+  z-index: 1;
 }
 .login{
   width: 158px;
@@ -42,21 +44,7 @@ body {
 .logo-main {
   overflow: hidden;
   float: left;
-  width: 174px;
-}
-.name-company{
-  float: left;
-  width: 130px;
-  font-family: AFKlampenborg;
-  font-size: 22px;
-  font-weight: bold;
-  color: #989b9d;
-  margin-left: 0px;
-  margin-top: 20px;
-}
-.name-company a{
-  text-decoration: none;
-  color: #989b9d;
+  width: 275px;
 }
 .slogan{
   font-family: arial;
@@ -67,52 +55,52 @@ body {
   margin-top: 25px;
   margin-bottom: 42px;
 }
-.main-nav{
-  width: 398px;
-  height: 35px;
+.nav {
+  overflow: hidden;
+  list-style: none;
+  position: absolute;
   float: right;
   border: 1px solid gray;
-  border-radius: 25px 25px 0 0;
-  text-align: center;
   border-bottom: none;
+  border-radius: 25px 25px 0 0;
   margin-right: 15px;
-  background: #dee0df;
   color: #939598;
   font-weight: bold;
   font-family: arial;
   font-size: 16px;
-  padding-top: 15px; 
-}
-ul.nav {
-  overflow: hidden;
-  list-style: none;
+  bottom: -1px;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+  margin-right: 10;
+  padding: 0;
 }
 ul.nav li {
-  display: inline;
-}
-.nav-a{
   display: block;
+  border-bottom: 1px solid gray;
   border-right: 1px solid gray;
-  width: 130px;
+  background-image: url(../image/img-passive.png);
+  background-repeat: repeat-x;
   float: left;
+  padding: 15px 10px;
 }
-.nav-b{
-  display: block;
-  border-right: 1px solid gray;
-  width: 130px;
-  float: left;
+ ul.nav li.active,
+ ul.nav li:hover {
+  background-image: url(../image/active.png);
+  background-repeat: repeat-x;
+  border-bottom-color: #eff2f3;
+  font-color: #010101; 
 }
-.nav-c{
-  float: left;
-  padding-left: 15px;
+ul.nav li:last-child {
+  border-right: none;
 }
 ul.nav li a {
   text-decoration: none;
   color: #939598;
 }
-ul.nav li a:hover {
+/*ul.nav li:hover {
   color: #45b8fb;
-}
+}*/
 .info-about-company{
   width: 394px;
   margin: 0 0 0 134px;
@@ -167,6 +155,7 @@ padding: 0 7px 0 0;
   border-bottom: 1px solid gray;
   padding: 16px 53px 16px 53px;
   margin: 0 0 28px 0;
+  text-align: center;
 }
 .logo_1{
   border: 3px solid #ff9600;
@@ -179,69 +168,30 @@ padding: 0 7px 0 0;
   padding: 9px 0 49px 0;
 }
 .logo-companys li{
-  padding: 0 0 40px 0;
-  margin: 0 0 0 40px;
+  padding: 0 0 10px 0;
+  text-align: center;
 }
-a.sprite{
-  display: block;
-  width: 114px;
-  height: 64px;
-  background: url("../image/sprites.png");
-  text-decoration: none;
-  margin-bottom: -20px;
-  margin-top: -10px; 
+.logo-companys li {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; 
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
-a.sprite:hover{
-  background-position: 0 -79px;
+.logo-companys li:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; 
 }
-a.sprite-1{
-  display: block;
-  width: 114px;
-  height: 70px;
-  background: url("../image/sprites.png");
-  background-position: -265px -72px;
-  text-decoration: none;
-  margin-top: -10px;
-  margin-bottom: -40px;
-}
-a.sprite-1:hover{
-  background-position: -265px 5px;
-}
-a.sprite-2{
-  display: block;
-  width: 114px;
-  height: 64px;
-  background: url("../image/sprites.png");
-  background-position: -380px -60px;
-  text-decoration: none;
-  margin-bottom: -30px;
-}
-a.sprite-2:hover{
-  background-position: -380px 7px;
-}
-a.sprite-3{
-  display: block;
-  width: 114px;
-  height: 100px;
-  background: url("../image/sprites.png");
-  background-position: -134px -170px;
-  text-decoration: none;
-  margin-bottom: -30px;
-}
-a.sprite-3:hover{
-  background-position: -9px -170px;
-}
-a.sprite-4{
-  display: block;
-  width: 110px;
-  height: 45px;
-  background: url("../image/sprites.png");
-  background-position: -131px -72px;
-  text-decoration: none;
-}
-a.sprite-4:hover{
-  background-position: -131px -5px;
-}
+
 h1{
   font-family: arial;
   font-size: 26px;
